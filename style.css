@@ -3,11 +3,8 @@ li {
 }
 
 .section_four {
-  background-image: url(../img/Main/section_four/section_four_background.jpg);
-}
-
-.one {
-  background-image: url(../img/Main/section_one/section_background.jpg);
+  background-image: url(../img/Main/section_four/section_four_background.jpg)
+    lightgray 50% / cover no-repeat;
 }
 
 .nav {
@@ -72,4 +69,14 @@ li {
 
 .class {
   background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+}
+header_becgraund {
+  background: url(./img/header/fon.png) cover no-repeat;
+}
+section_one_beackground_img {
+  background: lightgray 50% / cover no-repeat;
+}
+section_four_beackground {
+  background-image: url(./img/Main/section_four/section_four_background.jpg)
+    lightgray 50% / cover no-repeat;
 }
